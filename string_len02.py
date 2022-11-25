@@ -6,4 +6,9 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    l = len(a)
+    if l%2 == 0:
+        return True
+    else:
+        return False
+print(main('code'))
